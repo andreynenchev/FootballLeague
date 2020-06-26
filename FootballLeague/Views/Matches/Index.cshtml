@@ -1,0 +1,52 @@
+﻿@model IEnumerable<DataBase.Matches>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ResultTeam1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ResultTeam2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Teams.TeamName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Teams1.TeamName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ResultTeam1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ResultTeam2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Teams.TeamName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Teams1.TeamName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MatchId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MatchId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MatchId })
+        </td>
+    </tr>
+}
+
+</table>

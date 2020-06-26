@@ -1,0 +1,10 @@
+D:\C#\DataBase\bin\Debug\DataBase.dll.config
+D:\C#\DataBase\bin\Debug\DataBase.dll
+D:\C#\DataBase\bin\Debug\DataBase.pdb
+D:\C#\DataBase\bin\Debug\EntityFramework.dll
+D:\C#\DataBase\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#\DataBase\bin\Debug\EntityFramework.xml
+D:\C#\DataBase\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#\DataBase\obj\Debug\DataBase.csproj.CopyComplete
+D:\C#\DataBase\obj\Debug\DataBase.dll
+D:\C#\DataBase\obj\Debug\DataBase.pdb

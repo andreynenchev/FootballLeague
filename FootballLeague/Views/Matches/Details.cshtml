@@ -1,0 +1,51 @@
+﻿@model DataBase.Matches
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Matches</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ResultTeam1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResultTeam1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ResultTeam2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResultTeam2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Teams.TeamName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Teams.TeamName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Teams1.TeamName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Teams1.TeamName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MatchId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

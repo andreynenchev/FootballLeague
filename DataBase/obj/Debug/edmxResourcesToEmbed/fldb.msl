@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FootballLeagueModelStoreContainer" CdmEntityContainer="FootballLeagueEntities">
+    <EntitySetMapping Name="Matches">
+      <EntityTypeMapping TypeName="FootballLeagueModel.Matches">
+        <MappingFragment StoreEntitySet="Matches">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="TeamId1" ColumnName="TeamId1" />
+          <ScalarProperty Name="TeamId2" ColumnName="TeamId2" />
+          <ScalarProperty Name="ResultTeam1" ColumnName="ResultTeam1" />
+          <ScalarProperty Name="ResultTeam2" ColumnName="ResultTeam2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Teams">
+      <EntityTypeMapping TypeName="FootballLeagueModel.Teams">
+        <MappingFragment StoreEntitySet="Teams">
+          <ScalarProperty Name="TeamId" ColumnName="TeamId" />
+          <ScalarProperty Name="TeamName" ColumnName="TeamName" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="RefreshResults" FunctionName="FootballLeagueModel.Store.RefreshResults" />
+  </EntityContainerMapping>
+</Mapping>

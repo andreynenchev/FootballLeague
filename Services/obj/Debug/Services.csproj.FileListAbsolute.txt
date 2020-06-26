@@ -1,0 +1,14 @@
+D:\C#\Services\bin\Debug\Services.dll.config
+D:\C#\Services\bin\Debug\Services.dll
+D:\C#\Services\bin\Debug\Services.pdb
+D:\C#\Services\bin\Debug\DataBase.dll
+D:\C#\Services\bin\Debug\EntityFramework.dll
+D:\C#\Services\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#\Services\bin\Debug\DataBase.pdb
+D:\C#\Services\bin\Debug\DataBase.dll.config
+D:\C#\Services\bin\Debug\EntityFramework.xml
+D:\C#\Services\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#\Services\obj\Debug\Services.csprojAssemblyReference.cache
+D:\C#\Services\obj\Debug\Services.csproj.CopyComplete
+D:\C#\Services\obj\Debug\Services.dll
+D:\C#\Services\obj\Debug\Services.pdb
